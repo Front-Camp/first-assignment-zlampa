@@ -10,4 +10,4 @@
 | "truncate"    | 5                      |
 | "turnMeBaby"  | 1                      |
 | "twoSums"     | 10                     |
-| **Total**     |   30 |
+| **Total**     |   40 |
