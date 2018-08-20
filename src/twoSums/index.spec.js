@@ -7,6 +7,11 @@ describe('twoSums::', () => {
   });
 
   /** @test {twoSums} */
+  it('should return values for not ordered elements', function () {
+    expect(twoSums([3, 6, 9, 1], 7)).toEqual([6, 1]);
+  });
+
+  /** @test {twoSums} */
   it('should return only first elements which sum equals "base" parameter', function () {
     expect(twoSums([12, 3, 7, 8], 15)).toEqual([12, 3]);
   });
