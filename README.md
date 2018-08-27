@@ -11,3 +11,25 @@
 | "turnMeBaby"  | 1                      |
 | "twoSums"     | 10                     |
 | **Total**     |   40 |
+
+# To start project
+
+Install packages
+```
+npm install
+```
+
+# Development mode and single test run
+
+Development mode allows you to run single test from browser interface
+
+```
+npm run dev
+```
+
+# Run all tests
+
+Run all tests:
+```
+npm run test
+```
