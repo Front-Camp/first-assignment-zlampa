@@ -10,7 +10,13 @@
 * sum(-1, 13); // 12
 */
 const sum = (a, b) => {
-  /* your logic here...*/
+  if (isNaN(a) || isNaN(b)) {
+  	throw "Argument is NaN";
+  } else if (typeof a != "number" || typeof b != "number" ){
+  	throw "Parameter is not a number!";
+  } else if (!isFinite(a) || !isFinite(b)) {
+  	throw "Argument is infinite";
+  } else return a + b;
 };
 
 export default sum;

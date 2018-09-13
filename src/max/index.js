@@ -7,7 +7,10 @@
 * max([-1, 0]);   // 0
 */
 const max = arr => {
-  /* your logic here...*/
+		
+	return arr.sort((a, b) => b - a)[0];
+	
+	
 };
 
 export default max;
